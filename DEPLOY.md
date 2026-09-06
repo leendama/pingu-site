@@ -16,11 +16,11 @@ every push that touches it. The page is then live at
 
 ## 2. The domain is already claimed
 
-`site/CNAME` contains `www.trycolty.com`. GitHub reads it on every deploy and
+`CNAME` contains `trycolty.com`. GitHub reads it on every deploy and
 serves the site under that name. Nothing to do here.
 
-`www` is the canonical host; once the records below are in, GitHub redirects
-`trycolty.com` to `www.trycolty.com` on its own.
+The apex is the canonical host; once the records below are in, GitHub redirects
+`www.trycolty.com` to `trycolty.com` on its own.
 
 ## 3. Change two things in Squarespace DNS
 
