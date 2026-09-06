@@ -47,7 +47,7 @@ If Code Blocks are unavailable, host `site/` on GitHub Pages (the workflow in
 `.github/workflows/pages.yml` already does this on pushes to `main`) and embed it:
 
 ```html
-<iframe src="https://leendama.github.io/pingu/" title="Pingu waitlist"
+<iframe src="https://leendama.github.io/pingu-site/" title="Pingu waitlist"
         style="width:100vw;margin-left:calc(50% - 50vw);height:100dvh;border:0;display:block"></iframe>
 ```
 

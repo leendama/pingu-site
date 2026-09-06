@@ -7,12 +7,12 @@ the page to live inside an existing Squarespace site.
 
 ## 1. Turn on Pages
 
-GitHub → **leendama/pingu → Settings → Pages → Build and deployment → Source:
+GitHub → **leendama/pingu-site → Settings → Pages → Build and deployment → Source:
 GitHub Actions**. The repo is public, so this is free.
 
-Merge this branch to `main`. `.github/workflows/pages.yml` publishes `site/` on
+Merge this branch to `main`. `.github/workflows/pages.yml` publishes the repository root on
 every push that touches it. The page is then live at
-`https://leendama.github.io/pingu/`. Check it there before touching DNS.
+`https://leendama.github.io/pingu-site/`. Check it there before touching DNS.
 
 ## 2. The domain is already claimed
 
